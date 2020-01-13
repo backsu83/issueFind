@@ -1,3 +1,13 @@
+
+### 프로젝트 실행 방법
+
+- git clone
+- npm install
+- npm start
+- http://localhost:8080/ 로 페이지 확인 
+
+<br>
+
 #### [ 예상 일정 ] 
 
 ##### ~1월 12일 (1월 1째주) : 프로젝트 틀 생성 및 테마 적용
@@ -34,9 +44,3 @@
 - 추가 기능 확인 
 
 
-### 프로젝트 실행 방법
-
-- 프로젝트 git clone
-- npm install
-- npm start
-- http://localhost:8080/ 로 페이지 확인 
