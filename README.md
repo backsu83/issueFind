@@ -32,3 +32,11 @@
 
 ##### ~ 3월 7일 (3월 1째주)
 - 추가 기능 확인 
+
+
+### 프로젝트 실행 방법
+
+- 프로젝트 git clone
+- npm install
+- npm start
+- http://localhost:8080/ 로 페이지 확인 
