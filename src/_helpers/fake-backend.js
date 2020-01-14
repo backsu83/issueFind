@@ -29,7 +29,7 @@ export function configureFakeBackend() {
                         resolve({ ok: true, text: () => Promise.resolve(JSON.stringify(responseJson)) });
                     } else {
                         // else return error
-                        reject('Username or password is incorrect');
+                        reject('아이디 혹은 비밀번호를 확인해주세요');
                     }
 
                     return;
