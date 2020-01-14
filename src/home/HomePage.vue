@@ -1,10 +1,8 @@
 <template>
     <div>
-        <h4>안녕하세요 {{user.firstName}}님</h4>
         <p>
             <router-link to="/login">로그아웃</router-link>
         </p>
-
 
         <!-- About Section -->
         <section class="page-section bg-primary" id="about">
@@ -85,17 +83,4 @@
 </template>
 
 <script>
-export default {
-    computed: {
-        user () {
-            return this.$store.state.authentication.user;
-        },
-        users () {
-            return this.$store.state.users.all;
-        }
-    },
-    created () {
-        this.$store.dispatch('users/getAll');
-    }
-};
 </script>

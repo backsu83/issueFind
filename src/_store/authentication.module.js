@@ -1,7 +1,7 @@
 import { userService } from '../_services';
 import { router } from '../_helpers';
 
-const user = JSON.parse(localStorage.getItem('user'));
+const user = localStorage.getItem('user');
 const initialState = user
     ? { status: { loggedIn: true }, user }
     : { status: {}, user: null };
@@ -12,7 +12,6 @@ export const authentication = {
     actions: {
         login({ dispatch, commit }, { username, password }) {
             commit('loginRequest', { username });
-
             userService.login(username, password)
                 .then(
                     user => {
@@ -48,4 +47,4 @@ export const authentication = {
             state.user = null;
         }
     }
-}
+};
