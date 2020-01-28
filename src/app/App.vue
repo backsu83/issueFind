@@ -1,25 +1,31 @@
 <template>
-    <div class="jumbotron">
-            <div class="row">
-<!--                    <div v-if="alert.message" :class="`alert ${alert.type}`">{{alert.message}}</div>-->
-                    <router-view></router-view>
-            </div>
+    <div>
+        <TopMenu/>
+        <router-view></router-view>
+        <Footer/>
     </div>
 </template>
 
 <script>
-export default {
-    name: 'app',
-    computed: {
-        alert () {
-            return this.$store.state.alert
+    import Footer from '../public/Footer';
+    import TopMenu from '../public/TopMenu';
+
+    export default {
+        name: 'app',
+        computed: {
+            alert() {
+                return this.$store.state.alert
+            }
+        },
+        watch: {
+            $route(to, from) {
+                // clear alert on location change
+                this.$store.dispatch('alert/clear');
+            }
+        },
+        components: {
+            TopMenu,
+            Footer
         }
-    },
-    watch:{
-        $route (to, from){
-            // clear alert on location change
-            this.$store.dispatch('alert/clear');
-        }
-    } 
-};
+    };
 </script>
