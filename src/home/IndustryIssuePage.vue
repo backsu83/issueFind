@@ -1,13 +1,20 @@
 <template>
-    <h2>산업별 이슈</h2>
+    <div>
+        <section class="page-section" id="contact">
+            <MixedChart/>
+            <MixedChart/>
+            <MixedChart/>
+        </section>
+    </div>
 </template>
 
 <script>
+    import MixedChart from "../common/MixedChart";
+
     export default {
-        name: "IndustryIssue"
-    }
+        name: 'IndustryIssue',
+        components: {
+            MixedChart
+        }
+    };
 </script>
-
-<style scoped>
-
-</style>

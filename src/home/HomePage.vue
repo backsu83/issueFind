@@ -1,7 +1,5 @@
 <template>
     <div>
-
-
         <div id="demo" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner"> <!-- 슬라이드 쇼 -->
                 <div class="carousel-item active"> <!--가로--> <img class="d-block w-100"
