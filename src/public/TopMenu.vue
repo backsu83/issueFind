@@ -34,8 +34,8 @@
                     <li class="nav-item">
                         <a class="nav-link" @click="visible = !visible">이슈 파인더</a>
                         <ul v-if="visible">
-                            <li><router-link to="/issue/hot">핫이슈등록</router-link></li>
-                            <li><router-link to="/issue/industry">산업별이슈</router-link></li>
+                            <li><router-link to="/issue/hot">실시간이슈</router-link></li>
+                            <li><router-link to="/issue/industry">업종별이슈</router-link></li>
                         </ul>
                     </li>
                     <li class="nav-item">

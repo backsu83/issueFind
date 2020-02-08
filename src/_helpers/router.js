@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 
-import HomePage from '../home/HomePage'
+import HomePage from '../home/main/HomePage'
 import Login from '../login/Login'
 import IntroPage from "../home/IntroPage";
 import ServicePage from "../home/ServicePage";
