@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c44bcc2-bca7-4a8b-8d15-418f46ec6fe7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/home/main/IndustryIssue.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home/main/Qna.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home/main/TopSlide.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_helpers/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_helpers/router.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/MixedChart.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/MixedChart.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/HomePage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/main/HomePage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/TopMenu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/TopMenu.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/IntroPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/IntroPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/PayServicePage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/PayServicePage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/PaymentPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/PaymentPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/ServicePage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/ServicePage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/main/IndustryIssue.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/main/IndustryIssue.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/main/Qna.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/main/Qna.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,12 +22,6 @@
         <option value="Vue Single File Component" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>top</find>
-      <find>cree</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -101,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578994574942</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="진행중..">
+      <created>1581157217249</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581157217249</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -121,6 +122,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="진행중.." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="314" y="31" key="CommitChangelistDialog2" timestamp="1581157216644">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state x="314" y="31" key="CommitChangelistDialog2/0.23.1440.811@0.23.1440.811" timestamp="1581157216644" />
     <state width="1419" height="208" key="GridCell.Tab.0.bottom" timestamp="1581150572664">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
@@ -137,6 +142,10 @@
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state width="1419" height="208" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1581150572664" />
+    <state x="320" y="168" key="Vcs.Push.Dialog.v2" timestamp="1581157222194">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state x="320" y="168" key="Vcs.Push.Dialog.v2/0.23.1440.811@0.23.1440.811" timestamp="1581157222194" />
     <state x="420" y="227" key="git4idea.merge.GitPullDialog" timestamp="1581150553803">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
@@ -194,6 +203,12 @@
           <url>file://$PROJECT_DIR$/src/home/IndustryIssuePage.vue</url>
           <line>13</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/home/main/Qna.vue</url>
+          <line>53</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
