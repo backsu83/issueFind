@@ -3,7 +3,7 @@
         <div class="container text-muted">
             <hr class="divider my-4">
             <h1 class="text-primary mt-5 font-weight-bold">Social Issue Tracking Service</h1>
-            <h2 class="mt-3 mb-3">국내 2,300여 상장기업의 핵심정보를 내 손안에!</h2>
+            <h2 class="text-dark mt-3 mb-3">국내 2,300여 상장기업의 핵심정보를 내 손안에!</h2>
             <h5>빅데이터 이슈 분석리포트로 기업의 현재/미래 가치를 확인하세요</h5>
             <h5>투자의 핵심 지표가 되는 이슈를 가장 빠르고 간단하게 전달합니다</h5>
             <h5>기업 이슈와 가치에 대한 분석, 이제 <h3 class="d-inline font-weight-bold text-dark">이슈파인드</h3>를 만나보세요</h5>

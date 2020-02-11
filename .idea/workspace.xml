@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1c44bcc2-bca7-4a8b-8d15-418f46ec6fe7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/MixedChart.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/MixedChart.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home/IntroPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/IntroPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/PayServicePage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/PayServicePage.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home/PaymentPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/PaymentPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/ServicePage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/ServicePage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/main/IndustryIssue.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/main/IndustryIssue.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/main/Qna.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/main/Qna.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/TopMenu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/TopMenu.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +28,15 @@
     <option name="width" value="1036" />
     <option name="height" value="733" />
   </component>
+  <component name="ProjectId" id="1XbZXTahEZPeEYlVZyRdhNIN3eR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/vue-carousel-master" />
@@ -87,6 +90,8 @@
       <workItem from="1580171789970" duration="21531000" />
       <workItem from="1580959133001" duration="1151000" />
       <workItem from="1581037191270" duration="8646000" />
+      <workItem from="1581316799489" duration="4147000" />
+      <workItem from="1581382130676" duration="4821000" />
     </task>
     <task id="LOCAL-00001" summary="진행중..">
       <created>1578994574942</created>
@@ -102,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581157217249</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="진행중..">
+      <created>1581270444137</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581270444137</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -122,34 +134,35 @@
     <option name="LAST_COMMIT_MESSAGE" value="진행중.." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="314" y="31" key="CommitChangelistDialog2" timestamp="1581157216644">
+    <state x="314" y="31" key="CommitChangelistDialog2" timestamp="1581270443902">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state x="314" y="31" key="CommitChangelistDialog2/0.23.1440.811@0.23.1440.811" timestamp="1581157216644" />
-    <state width="1419" height="208" key="GridCell.Tab.0.bottom" timestamp="1581150572664">
+    <state x="314" y="31" key="CommitChangelistDialog2/0.23.1440.811@0.23.1440.811" timestamp="1581270443902" />
+    <state width="1419" height="208" key="GridCell.Tab.0.bottom" timestamp="1581308179793">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state width="1419" height="208" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1581150572664" />
-    <state width="1419" height="208" key="GridCell.Tab.0.center" timestamp="1581150572664">
+    <state width="1419" height="208" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1581308179792" />
+    <state width="1419" height="208" key="GridCell.Tab.0.center" timestamp="1581308179790">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state width="1419" height="208" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1581150572664" />
-    <state width="1419" height="208" key="GridCell.Tab.0.left" timestamp="1581150572663">
+    <state width="1419" height="208" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1581308179790" />
+    <state width="1419" height="208" key="GridCell.Tab.0.left" timestamp="1581308179788">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state width="1419" height="208" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1581150572663" />
-    <state width="1419" height="208" key="GridCell.Tab.0.right" timestamp="1581150572664">
+    <state width="1419" height="208" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1581308179788" />
+    <state width="1419" height="208" key="GridCell.Tab.0.right" timestamp="1581308179791">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state width="1419" height="208" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1581150572664" />
-    <state x="320" y="168" key="Vcs.Push.Dialog.v2" timestamp="1581157222194">
+    <state width="1419" height="208" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1581308179791" />
+    <state x="320" y="168" key="Vcs.Push.Dialog.v2" timestamp="1581270448409">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state x="320" y="168" key="Vcs.Push.Dialog.v2/0.23.1440.811@0.23.1440.811" timestamp="1581157222194" />
-    <state x="420" y="227" key="git4idea.merge.GitPullDialog" timestamp="1581150553803">
-      <screen x="0" y="23" width="1440" height="811" />
+    <state x="320" y="168" key="Vcs.Push.Dialog.v2/0.23.1440.811@0.23.1440.811" timestamp="1581270448409" />
+    <state x="420" y="227" key="git4idea.merge.GitPullDialog" timestamp="1581316826899">
+      <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="420" y="227" key="git4idea.merge.GitPullDialog/0.23.1440.811@0.23.1440.811" timestamp="1581150553803" />
+    <state x="420" y="227" key="git4idea.merge.GitPullDialog/0.23.1440.812@0.23.1440.812" timestamp="1581316826899" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -207,7 +220,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/home/main/Qna.vue</url>
           <line>53</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
