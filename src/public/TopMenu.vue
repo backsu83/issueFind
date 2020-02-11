@@ -100,18 +100,8 @@
 </script>
 
 <style scoped>
-    ul {
-        list-style: none;
-        align-content: center;
-    }
-
     a {
         cursor: pointer;
-    }
-
-    .navbar-scrolled {
-        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .15);
-        background-color: #fff !important;
     }
 
     .nav-item .nav-link {
