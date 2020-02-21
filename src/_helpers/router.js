@@ -27,7 +27,7 @@ export const router = new Router({
     { path: '/login', component: Login },
     { path: '/signup/agree', component: SignUpAgree }, //이용약관동의
     { path: '/signup', component: SignUp }, //회원가입
-    { path: '/mypage', component: MyPage }, //개인정보설정
+    { path: '/auth/mypage', component: MyPage }, //개인정보설정
     { path: '/intro', component: IntroPage }, //회사소개
     { path: '/service', component: ServicePage }, //서비스소개
     { path: '/service/pay', component: PayServicePage }, //유료서비스소개
@@ -37,7 +37,7 @@ export const router = new Router({
     { path: '/share/profit', component: ShareProfitPage }, //수익인증
     { path: '/qna', component: QnaPage }, //Q&A
     { path: '/request/qna', component: RequestQnaPage }, //상담신청
-    { path: '/issue/realtime', component: RealTimeIssuePage }, //실시간이슈-유료
+    { path: '/auth/issue/realtime/', component: RealTimeIssuePage }, //실시간이슈-유료
     { path: '/issue/hot', component: HotIssuePage }, //핫이슈등록
     { path: '/issue/industry', component: IndustryIssuePage }, //산업별이슈
 
@@ -48,13 +48,13 @@ export const router = new Router({
 
 router.beforeEach((to, from, next) => {
   // redirect to login page if not logged in and trying to access a restricted page
-  const publicPages = ['/login'];
-  const authRequired = !publicPages.includes(to.path);
+  const publicPages = ['/auth'];
+  const authRequired = to.path.includes(publicPages);
   const loggedIn = localStorage.getItem('user');
-
-  // if (authRequired && !loggedIn) {
-  //   return next('/login');
-  // }
+  console.log('logginIn:'+loggedIn);
+  if (authRequired && !loggedIn) {
+    return next('/login');
+  }
 
   next();
 });

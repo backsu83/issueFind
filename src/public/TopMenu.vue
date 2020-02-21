@@ -66,7 +66,7 @@
                                id="issueMenuLink" aria-haspopup="true" aria-expanded="false">이슈 파인더</a>
                             <div class="dropdown-menu" aria-labelledby="issueMenuLink">
                                 <a class="dropdown-item">
-                                    <router-link to="/issue/hot">실시간이슈</router-link>
+                                    <router-link to="/auth/issue/realtime">실시간이슈</router-link>
                                 </a>
                                 <a class="dropdown-item">
                                     <router-link to="/issue/industry">업종별이슈</router-link>
@@ -76,10 +76,13 @@
                     <li class="nav-item">
                         <div class="dropdown show">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
-                               id="myMenuLink" aria-haspopup="true" aria-expanded="false">마이 페이지</a>
-                            <div class="dropdown-menu" aria-labelledby="myMenuLink">
+                               id="myMenuLink" aria-haspopup="true" aria-expanded="false" v-if="logIn">마이 페이지</a>
+                            <a class="nav-link" href="#" id="logInLink" v-if="!logIn">
+                                <router-link to="/login">로그인</router-link>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="myMenuLink" v-if="logIn">
                                 <a class="dropdown-item">
-                                    <router-link to="/mypage">개인설정</router-link>
+                                    <router-link to="/auth/mypage">개인설정</router-link>
                                 </a>
                                 <a class="dropdown-item">
                                     <router-link to="/login">로그아웃</router-link>
@@ -95,7 +98,12 @@
 <script>
     export default {
         name: "TopMenu",
-        props: ['position', 'align']
+        props: ['position', 'align'],
+        computed: {
+            logIn() {
+                return this.$store.state.authentication.user !== null;
+            }
+        }
     }
 </script>
 
@@ -112,4 +120,3 @@
         color: #212529 !important;
     }
 </style>
-`

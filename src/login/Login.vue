@@ -1,7 +1,7 @@
 <template>
     <div class="row justify-content-center">
         <section class="page-section">
-            <h1 class="mt-0 text-center">BI</h1>
+            <h1 class="mt-0 text-center text-primary">IssueFind</h1>
             <hr class="divider my-4">
             <form @submit.prevent="handleSubmit">
                 <div class="form-group mt-3">
