@@ -16,8 +16,8 @@ function login(username, password) {
 
     return fetch(`${config.apiUrl}/api/users/signin?password=` + password + `&username=` + username, requestOptions)
         .then(handleResponse)
-        .then(function(response) {
-            response.text().then((token) => localStorage.setItem('user', token));
+        .then(user => {
+            localStorage.setItem('user', user);
             localStorage.setItem('username', username);
             return localStorage.getItem('user');
     });
@@ -48,6 +48,7 @@ function handleResponse(response) {
             const error = (data && data.message) || response.statusText;
             return Promise.reject(error);
         }
-        return response.text();
+        console.log('response.next'+data);
+        return data;
     });
 }
