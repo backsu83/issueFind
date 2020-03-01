@@ -93,18 +93,22 @@
                 </div>
                 <div class="col-lg-4">
                     <div>
-                        <MixedChart/>
+                        <YAxisChart/>
+                        <chart-header/>
                     </div>
                     <div>
-                        <MixedChart/>
+                        <YAxisChart/>
+                        <chart-header/>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div>
-                        <MixedChart/>
+                        <YAxisChart/>
+                        <chart-header/>
                     </div>
                     <div>
-                        <MixedChart/>
+                        <YAxisChart/>
+                        <chart-header/>
                     </div>
                 </div>
             </div>
@@ -114,13 +118,19 @@
 
 <script>
     import MixedChart from "../../common/MixedChart";
+    import YAxisChart from "../../common/YAxisChart";
+    import CandleStickChart from "../../common/CandleStickChart";
+    import ChartHeader from "../../common/ChartHeader";
     import TOSAgree from "../../login/SignUpAgree";
 
     export default {
         name: "IndustryIssue",
         components: {
             TOSAgree,
-            MixedChart
+            MixedChart,
+            YAxisChart,
+            CandleStickChart,
+            ChartHeader
         }
     };
 </script>

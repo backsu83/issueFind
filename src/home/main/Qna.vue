@@ -1,15 +1,10 @@
 <template>
     <div>
         <!-- About Section -->
-        <section class="bg-primary text-white mt-5" id="about">
+        <section class="text-white mt-5" id="about">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-lg-8 text-center">
-                        <hr class="divider text-primary my-4">
-                        <h1 class="text-white mt-0">유료 서비스팩 이용 시 </h1>
-                        <h2 class="text-white mt-0">최신 정보 및 추이 그래프를 받아 보실 수 있습니다. </h2>
-                        <hr class="divider text-primary my-4">
-                    </div>
+                        <h4 class="mt-0 color-red font-weight-light">※ 유료 서비스팩 이용 시 최신 정보 및 추이 그래프를 받아 보실 수 있습니다. </h4>
                 </div>
             </div>
         </section>
@@ -62,5 +57,10 @@
 </script>
 
 <style scoped>
-
+    .bg-color-red {
+        background: #DF0101;
+    }
+    .color-red {
+        color: #DF0101;
+    }
 </style>

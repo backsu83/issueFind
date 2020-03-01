@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c44bcc2-bca7-4a8b-8d15-418f46ec6fe7" name="Default Changelist" comment="진행중..">
+    <list default="true" id="1c44bcc2-bca7-4a8b-8d15-418f46ec6fe7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/common/CandleStickChart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/ChartHeader.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/LineChart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/YAxisChart.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/RequestQnaPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/RequestQnaPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/login/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_helpers/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_helpers/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/MixedChart.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/MixedChart.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/RealTimeIssuePage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/RealTimeIssuePage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/main/IndustryIssue.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/main/IndustryIssue.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/main/Qna.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/main/Qna.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +28,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="1" />
-    <option name="width" value="1036" />
-    <option name="height" value="733" />
-  </component>
   <component name="ProjectId" id="1XbZXTahEZPeEYlVZyRdhNIN3eR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/vue-carousel-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/common" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,11 +52,12 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/common" />
+      <recent name="C:\Users\annajk\Desktop\vue-vuex-jwt-authentication-example" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/home/main" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\annajk\Desktop\vue-vuex-jwt-authentication-example" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -93,7 +95,7 @@
       <workItem from="1581382130676" duration="13042000" />
       <workItem from="1581641397715" duration="711000" />
       <workItem from="1581857244697" duration="619000" />
-      <workItem from="1582025852817" duration="1739000" />
+      <workItem from="1582025852817" duration="16707000" />
     </task>
     <task id="LOCAL-00001" summary="진행중..">
       <created>1578994574942</created>
@@ -130,7 +132,21 @@
       <option name="project" value="LOCAL" />
       <updated>1581406381307</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="진행중..">
+      <created>1582441765790</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582441765790</updated>
+    </task>
+    <task id="LOCAL-00007" summary="진행중..">
+      <created>1582441844574</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1582441844574</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -150,11 +166,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="진행중.." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="314" y="31" key="CommitChangelistDialog2" timestamp="1582441765470">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state x="314" y="31" key="CommitChangelistDialog2" timestamp="1582441844399">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="314" y="31" key="CommitChangelistDialog2/0.23.1440.811@0.23.1440.811" timestamp="1581642421466" />
     <state x="314" y="31" key="CommitChangelistDialog2/0.23.1440.812@0.23.1440.812" timestamp="1581406381093" />
+    <state x="314" y="31" key="CommitChangelistDialog2/0.23.1440.814@0.23.1440.814" timestamp="1582441844399" />
     <state x="314" y="31" key="CommitChangelistDialog2/0.23.1440.816@0.23.1440.816" timestamp="1582441765470" />
     <state width="1419" height="208" key="GridCell.Tab.0.bottom" timestamp="1581308179793">
       <screen x="0" y="23" width="1440" height="811" />
@@ -184,11 +201,12 @@
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state x="504" y="146" key="RollbackChangesDialog/0.23.1440.811@0.23.1440.811" timestamp="1581398545878" />
-    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1582441770174">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1582441852570">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="320" y="168" key="Vcs.Push.Dialog.v2/0.23.1440.811@0.23.1440.811" timestamp="1581388240454" />
     <state x="320" y="168" key="Vcs.Push.Dialog.v2/0.23.1440.812@0.23.1440.812" timestamp="1581406385786" />
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.23.1440.814@0.23.1440.814" timestamp="1582441852570" />
     <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.23.1440.816@0.23.1440.816" timestamp="1582441770174" />
     <state x="420" y="228" key="git4idea.merge.GitPullDialog" timestamp="1582440445721">
       <screen x="0" y="23" width="1440" height="814" />
@@ -196,10 +214,11 @@
     <state x="420" y="227" key="git4idea.merge.GitPullDialog/0.23.1440.811@0.23.1440.811" timestamp="1581150553803" />
     <state x="420" y="227" key="git4idea.merge.GitPullDialog/0.23.1440.812@0.23.1440.812" timestamp="1581316826899" />
     <state x="420" y="228" key="git4idea.merge.GitPullDialog/0.23.1440.814@0.23.1440.814" timestamp="1582440445721" />
-    <state x="385" y="158" width="670" height="676" key="search.everywhere.popup" timestamp="1581402216772">
-      <screen x="0" y="23" width="1440" height="811" />
+    <state x="385" y="158" width="670" height="679" key="search.everywhere.popup" timestamp="1582466886308">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="385" y="158" width="670" height="676" key="search.everywhere.popup/0.23.1440.811@0.23.1440.811" timestamp="1581402216772" />
+    <state x="385" y="158" width="670" height="679" key="search.everywhere.popup/0.23.1440.814@0.23.1440.814" timestamp="1582466886308" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -256,7 +275,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/home/main/Qna.vue</url>
-          <line>53</line>
+          <line>48</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
