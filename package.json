@@ -7,7 +7,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --open"
+    "start": "npm install && webpack-dev-server --open"
   },
   "dependencies": {
     "@chenfengyuan/vue-carousel": "^1.0.3",
