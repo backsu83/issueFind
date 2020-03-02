@@ -29,7 +29,8 @@ module.exports = {
     externals: {
         // global app config object
         config: JSON.stringify({
-            apiUrl: 'http://localhost:5000'
+            // apiUrl: 'http://localhost:5000'
+            apiUrl: 'http://stockcrawling-env.ebpih863vc.ap-northeast-2.elasticbeanstalk.com'
         })
     }
 }
